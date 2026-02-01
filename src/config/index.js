@@ -16,7 +16,7 @@ const config = {
   redisUrl: process.env.REDIS_URL || 'redis://localhost:6379',
 
   // Admin
-  adminPassword: process.env.ADMIN_PASSWORD || 'changeme',
+  adminPassword: process.env.ADMIN_PASSWORD || 'test',
   adminTokenTtl: 86400, // 24 hours in seconds
 
   // Session
